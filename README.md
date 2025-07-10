@@ -288,13 +288,13 @@ Installing packages and dependencies.
 ---
 
 ### 1️⃣8️⃣ Explain how you’d set up centralized logging for containerized applications.
-Deploy Fluentd/Logstash agents.
+- Deploy Fluentd/Logstash agents.
 
-Collect logs from containers.
+- Collect logs from containers.
 
-Send logs to Elasticsearch.
+- Send logs to Elasticsearch.
 
-Visualize with Kibana.
+- Visualize with Kibana.
 
 ---
 

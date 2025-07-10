@@ -63,7 +63,7 @@ resource "aws_instance" "web" {
 ```
 ---
 ### 5️⃣ What is version control, and why is it important?
-Version control systems like Git:
+**Version control systems like Git:**
 
 - Track and manage code changes.
 
@@ -85,7 +85,7 @@ Version control systems like Git:
 
 ## 🛠️ Tools & Automation
 ### 6️⃣ What is Jenkins, and how does it help in CI/CD pipelines?
-Jenkins:
+**Jenkins:**
 
 - Is an extensible automation server.
 
@@ -110,7 +110,7 @@ pipeline {
 ---
 
 ### 7️⃣ How does Docker work, and why is it popular for containerization?
-Docker creates containers—lightweight, isolated environments with:
+**Docker creates containers—lightweight, isolated environments with:**
 
 - Filesystem layers (images)
 
@@ -137,7 +137,7 @@ Docker creates containers—lightweight, isolated environments with:
 ---
 
 ### 8️⃣ What is Kubernetes, and what problems does it solve?
-Kubernetes automates:
+**Kubernetes automates:**
 
 - Scheduling: Pods run optimally across nodes.
 
@@ -156,11 +156,11 @@ Kubernetes automates:
 ### 9️⃣ What is Terraform, and how does it differ from Ansible?
 **Terraform:**
 
-- Focus: Infrastructure provisioning (VMs, networks).
+- **Focus:** Infrastructure provisioning (VMs, networks).
 
-- Declarative: Desired end-state configuration.
+- **Declarative:** Desired end-state configuration.
 
-- Idempotent: Re-applies safely.
+- **Idempotent:** Re-applies safely.
 
 **Ansible:**
 
@@ -262,9 +262,9 @@ Installing packages and dependencies.
 
 ## 🧭 Advanced – Monitoring & Observability
 ### 1️⃣6️⃣ What is observability, and how does it differ from monitoring?
-- Monitoring: Collects predefined metrics.
+- **Monitoring:** Collects predefined metrics.
 
-- Observability: Enables asking ad hoc questions about system state.
+- **Observability:** Enables asking ad hoc questions about system state.
 
 **Pillars:**
 
@@ -277,13 +277,13 @@ Installing packages and dependencies.
 ---
 
 ### 1️⃣7️⃣ What tools would you use to monitor a Kubernetes cluster?
-- Prometheus: Metrics collection.
+- **Prometheus:** Metrics collection.
 
-- Grafana: Dashboards and alerts.
+- **Grafana:** Dashboards and alerts.
 
-- ELK Stack: Log aggregation.
+- **ELK Stack:** Log aggregation.
 
-- Jaeger: Distributed tracing.
+- **Jaeger:** Distributed tracing.
 
 ---
 
@@ -299,11 +299,11 @@ Visualize with Kibana.
 ---
 
 ### 1️⃣9️⃣ What is an SLI, SLO, and SLA?
-SLI: A specific metric (e.g., request latency).
+**SLI:** A specific metric (e.g., request latency).
 
-SLO: Target (e.g., 99.9% availability).
+**SLO:** Target (e.g., 99.9% availability).
 
-SLA: Contractual commitment, often with penalties.
+**SLA:** Contractual commitment, often with penalties.
 
 ---
 
@@ -313,7 +313,7 @@ SLA: Contractual commitment, often with penalties.
 - Helps find latency bottlenecks.
 
 - Identifies failures in distributed calls.
-- Tools: Jaeger, Zipkin.
+- **Tools:** Jaeger, Zipkin.
 
 ---
 
@@ -364,9 +364,9 @@ SLA: Contractual commitment, often with penalties.
 ---
 
 ### 2️⃣5️⃣ What are StatefulSets vs. Deployments?
-- Deployments: Stateless workloads (Pods interchangeable).
+- **Deployments:** Stateless workloads (Pods interchangeable).
 
-- StatefulSets: Stateful workloads (stable identity and storage).
+- **StatefulSets:** Stateful workloads (stable identity and storage).
 
 ---
 

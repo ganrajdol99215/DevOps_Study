@@ -73,7 +73,7 @@ Provide history and audit trails.
 
 Allow rollback of broken changes.
 
-Example workflow:
+**Example workflow:**
 
 Feature branches (feature/new-api)
 
@@ -95,11 +95,9 @@ Has 1,700+ plugins (Docker, GitHub, Kubernetes).
 
 Supports declarative pipelines (Jenkinsfile).
 
-Example Jenkinsfile:
+**Example Jenkinsfile:**
 
-groovy
-Copy
-Edit
+```hcl
 pipeline {
   agent any
   stages {
@@ -108,7 +106,7 @@ pipeline {
     stage('Deploy') { steps { sh './deploy.sh' } }
   }
 }
-
+```
 ---
 
 ### 7️⃣ How does Docker work, and why is it popular for containerization?

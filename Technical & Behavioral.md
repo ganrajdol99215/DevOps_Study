@@ -2,7 +2,7 @@
 
 This document contains **all questions and answers**, formatted for easy reference.
 
-## 🎯 Round 2: Technical Round (60 minutes)
+## 🎯 Round 2: Technical Round 
 
 ### 1. You’ve got an app running in one AWS account that needs to access an S3 bucket in another account. How would you set that up securely?
 
